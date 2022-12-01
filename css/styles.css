@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    font-family: inherit;
+}
+
+.header-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%; 
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.header-mail {
+    text-decoration: none;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+.header-phone {
+    text-decoration: none;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+.hero {
+
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 107%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+.hero-btn {
+
+}
