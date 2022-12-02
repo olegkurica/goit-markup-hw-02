@@ -8,9 +8,17 @@ body {
 
 /* _______ HEADER SECTION _______ */
 
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
 .header-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -21,16 +29,41 @@ body {
     text-transform: uppercase;
     color: #2E2F42;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
 }
 
 .header-logo>span {
     color: #4D5AE5;
 }
 
+.header-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 348px;
+    top: 24px;
+    margin: 0;
+}
+
 .header-link {
+    width: 48px;
+    height: 24px;
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.5; 
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
@@ -41,26 +74,45 @@ body {
 }
 
 .header-mail {
-    color: #434455;
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
     text-decoration: none;
 }
 
 .header-phone {
-    color: #434455;
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
     text-decoration: none;
 }
 
 /* ________ HERO SECTION ________ */
 
 .hero {
+    position: absolute;
+    width: 1440px;
+    height: 603px;
+    left: 0px;
+    top: 72px;
     background: #2E2F42;
 }
 
@@ -72,9 +124,19 @@ body {
     letter-spacing: 0.02em;
     margin: 0;
     color: #FFFFFF;
+    position: absolute;
+    width: 492px;
+    height: 120px;
+    left: 474px;
+    top: 264px;
 }
 
 .hero-btn {
+    position: absolute;
+    width: 170px;
+    height: 51px;
+    left: 635px;
+    top: 432px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -87,9 +149,75 @@ body {
     cursor: pointer;
 }
 
+.hero-btn>span {
+    width: 106px;
+    height: 19px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
 /* _______ SKILL SECTION _______ */
 
+.skill-feature-s {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 156px;
+    top: 795px;
+}
+
+.skill-feature-p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 444px;
+    top: 795px;
+}
+
+.skill-feature-d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 732px;
+    top: 795px;
+}
+
+.skill-feature-t {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 1020px;
+    top: 795px;
+}
+
 .skill-name {
+    width: 264px;
+    height: 24px;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -99,6 +227,8 @@ body {
 }
 
 .skill-descr {
+    width: 264px;
+    height: 72px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -110,6 +240,11 @@ body {
 /* _______ GALLERY SECTION _______ */
 
 .gallery-title {
+    position: absolute;
+    width: 322px;
+    height: 40px;
+    left: 559px;
+    top: 1019px;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
@@ -119,11 +254,45 @@ body {
     color: #2E2F42;
 }
 
+.gallery-item-a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 156px;
+    top: 1131px;
+}
+
+.gallery-item-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 540px;
+    top: 1131px;
+}
+
+.gallery-item-c {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 924px;
+    top: 1131px;
+}
+
 /* _______ TEAM SECTION _______ */
 
-.team {
-   
-}
+.team {}
 
 .team-title {
     position: absolute;
@@ -215,6 +384,12 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
 }
 
 .member-descr {
@@ -234,7 +409,7 @@ body {
     height: 310px;
     left: 0px;
     top: 2283px;
-    background: #2E2F42;    
+    background: #2E2F42;
 }
 
 .footer-logo {
