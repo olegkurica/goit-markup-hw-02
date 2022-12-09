@@ -7,6 +7,10 @@ body {
     font-family: inherit;
 }
 
+.list {
+    list-style: none;
+}
+
 :root {
     --light-color: #FFFFFF;
     --main-color: #2E2F42;
@@ -61,10 +65,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color);
     text-decoration: none;
-}
-
-.list {
-    list-style: none;
 }
 
 .header-mail {
@@ -350,7 +350,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--submain-color);
+    color: var(--main-color);
 }
 
 .payment {
@@ -360,7 +360,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--submain-color);
+    color: var(--main-color);
 }
 
 .medapp {
@@ -370,7 +370,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--submain-color);
+    color: var(--main-color);
 }
 
 .taxiserv {
@@ -380,7 +380,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--submain-color);
+    color: var(--main-color);
 }
 
 .screenill {
@@ -390,7 +390,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--submain-color);
+    color: var(--main-color);
 }
 
 .onlinecurs {
@@ -400,7 +400,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--submain-color);
+    color: var(--main-color);
 }
 
 .inststories {
@@ -410,7 +410,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--submain-color);
+    color: var(--main-color);
 }
 
 .organicf {
@@ -420,7 +420,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--submain-color);
+    color: var(--main-color);
 }
 
 .freshcoffee {
@@ -430,5 +430,9 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--submain-color);
+    color: var(--main-color);
+}
+
+.marketing-link {
+    text-decoration: none;
 }
