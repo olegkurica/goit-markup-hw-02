@@ -67,6 +67,21 @@ body {
     text-decoration: none;
 }
 
+.header-link:hover,
+.header-link:focus {
+    color: var(--iris-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--iris-color);
+}
+
+.header-phone:hover,
+.header-phone:focus {
+    color: var(--iris-color);
+}
+
 .header-mail {
     font-size: 16px;
     line-height: 1.5;
@@ -232,7 +247,7 @@ body {
 /* _______ FILTER SECTION _______ */
 
 .btn-filter-al {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     background: var(--cloud-color);
     border: 1px solid var(--cornflower-color);
     border-radius: 4px;
@@ -254,7 +269,7 @@ body {
 }
 
 .btn-filter-w {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     background: var(--cloud-color);
     border: 1px solid var(--cornflower-color);
     border-radius: 4px;
@@ -276,7 +291,7 @@ body {
 }
 
 .btn-filter-ap {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     background: var(--cloud-color);
     border: 1px solid var(--cornflower-color);
     border-radius: 4px;
@@ -298,7 +313,7 @@ body {
 }
 
 .btn-filter-d {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     background: var(--cloud-color);
     border: 1px solid var(--cornflower-color);
     border-radius: 4px;
@@ -320,7 +335,7 @@ body {
 }
 
 .btn-filter-m {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     background: var(--cloud-color);
     border: 1px solid var(--cornflower-color);
     border-radius: 4px;
@@ -343,96 +358,26 @@ body {
 
 /* _______ MARKETING SECTION _______ */
 
-.bankapp {
-    background: var(--light-color);
+.card {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
-}
-
-.payment {
-    background: var(--light-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
-}
-
-.medapp {
-    background: var(--light-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
-}
-
-.taxiserv {
-    background: var(--light-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
-}
-
-.screenill {
-    background: var(--light-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
-}
-
-.onlinecurs {
-    background: var(--light-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
-}
-
-.inststories {
-    background: var(--light-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
-}
-
-.organicf {
-    background: var(--light-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
-}
-
-.freshcoffee {
-    background: var(--light-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
 }
 
 .marketing-link {
     text-decoration: none;
+    color: var(--main-color);
+}
+
+.marketing-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.marketing-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--submain-color);
 }
